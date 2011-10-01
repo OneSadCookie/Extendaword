@@ -1,0 +1,2 @@
+@interface EWWordLayout : NSObject
+@end

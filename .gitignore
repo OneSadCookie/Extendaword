@@ -1,0 +1,8 @@
+.DS_Store
+*.xcworkspace
+xcuserdata
+*.tar.bz2
+icon
+Extendaword.tiff
+gfreqout.txt
+Extendaword/English.sqlite3

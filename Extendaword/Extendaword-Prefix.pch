@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Extendaword' target in the 'Extendaword' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+// arc4random_uniform not on 10.6
+#define arc4random_uniform(n) (arc4random() % (n))
+

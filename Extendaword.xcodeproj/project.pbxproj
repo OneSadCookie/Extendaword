@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533F220C14339D2E00849D8C /* NSArray+EWArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 533F220B14339D2E00849D8C /* NSArray+EWArrayAdditions.m */; };
+		533F220E1433A42300849D8C /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 533F220D1433A42300849D8C /* Ubuntu-Medium.ttf */; };
+		533F22111433A9D500849D8C /* EWGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 533F22101433A9D500849D8C /* EWGame.m */; };
+		533F22131433F45C00849D8C /* Bangers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 533F22121433F45C00849D8C /* Bangers.ttf */; };
+		535A0DF81436EB45000D4F41 /* EWEndGameMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 535A0DF71436EB45000D4F41 /* EWEndGameMode.m */; };
+		53682FF11436FAE400003982 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53682FF01436FAE400003982 /* Credits.rtf */; };
+		53682FFD1437033D00003982 /* NSString+EWStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53682FFC1437033D00003982 /* NSString+EWStringAdditions.m */; };
+		53B4FBD414369022008B6945 /* EWMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4FBD314369022008B6945 /* EWMode.m */; };
+		53B4FBD814369199008B6945 /* EWGameMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4FBD714369199008B6945 /* EWGameMode.m */; };
+		53B4FBDB1436929F008B6945 /* EWLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4FBDA1436929F008B6945 /* EWLayers.m */; };
+		53B4FBDE143692F1008B6945 /* EWWordLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4FBDD143692F0008B6945 /* EWWordLayout.m */; };
+		53B4FBE114369E20008B6945 /* EWIntroMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B4FBE014369E20008B6945 /* EWIntroMode.m */; };
+		53CB56A014367D4D0073CB27 /* Extendaword.icns in Resources */ = {isa = PBXBuildFile; fileRef = 53CB569F14367D4D0073CB27 /* Extendaword.icns */; };
+		53DDF3991434D81C002588A4 /* EWCGColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DDF3981434D81C002588A4 /* EWCGColors.m */; };
+		53EEC8FA143579ED00D876A8 /* EWAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EEC8F9143579ED00D876A8 /* EWAI.m */; };
+		53FE48701432EE09002A0578 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE486F1432EE09002A0578 /* Cocoa.framework */; };
+		53FE487A1432EE09002A0578 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53FE48781432EE09002A0578 /* InfoPlist.strings */; };
+		53FE487C1432EE09002A0578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE487B1432EE09002A0578 /* main.m */; };
+		53FE48831432EE09002A0578 /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE48821432EE09002A0578 /* EWAppDelegate.m */; };
+		53FE48861432EE0A002A0578 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FE48841432EE0A002A0578 /* MainMenu.xib */; };
+		53FE488E1432EE63002A0578 /* EWDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE488D1432EE63002A0578 /* EWDictionary.m */; };
+		53FE48901432EED5002A0578 /* English.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FE488F1432EED5002A0578 /* English.sqlite3 */; };
+		53FE48951432F477002A0578 /* EWGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE48941432F477002A0578 /* EWGameView.m */; };
+		53FE48971432F50B002A0578 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE48961432F50B002A0578 /* libsqlite3.dylib */; };
+		53FE48991432F624002A0578 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE48981432F624002A0578 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		533F220A14339D2E00849D8C /* NSArray+EWArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EWArrayAdditions.h"; sourceTree = "<group>"; };
+		533F220B14339D2E00849D8C /* NSArray+EWArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EWArrayAdditions.m"; sourceTree = "<group>"; };
+		533F220D1433A42300849D8C /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		533F220F1433A9D500849D8C /* EWGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWGame.h; sourceTree = "<group>"; };
+		533F22101433A9D500849D8C /* EWGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWGame.m; sourceTree = "<group>"; };
+		533F22121433F45C00849D8C /* Bangers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bangers.ttf; sourceTree = "<group>"; };
+		535A0DF61436EB45000D4F41 /* EWEndGameMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWEndGameMode.h; sourceTree = "<group>"; };
+		535A0DF71436EB45000D4F41 /* EWEndGameMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWEndGameMode.m; sourceTree = "<group>"; };
+		53682FF01436FAE400003982 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		53682FFB1437033D00003982 /* NSString+EWStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EWStringAdditions.h"; sourceTree = "<group>"; };
+		53682FFC1437033D00003982 /* NSString+EWStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EWStringAdditions.m"; sourceTree = "<group>"; };
+		53B4FBD214369022008B6945 /* EWMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMode.h; sourceTree = "<group>"; };
+		53B4FBD314369022008B6945 /* EWMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMode.m; sourceTree = "<group>"; };
+		53B4FBD614369199008B6945 /* EWGameMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWGameMode.h; sourceTree = "<group>"; };
+		53B4FBD714369199008B6945 /* EWGameMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWGameMode.m; sourceTree = "<group>"; };
+		53B4FBD91436929F008B6945 /* EWLayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLayers.h; sourceTree = "<group>"; };
+		53B4FBDA1436929F008B6945 /* EWLayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLayers.m; sourceTree = "<group>"; };
+		53B4FBDC143692F0008B6945 /* EWWordLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWWordLayout.h; sourceTree = "<group>"; };
+		53B4FBDD143692F0008B6945 /* EWWordLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWWordLayout.m; sourceTree = "<group>"; };
+		53B4FBDF14369E20008B6945 /* EWIntroMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWIntroMode.h; sourceTree = "<group>"; };
+		53B4FBE014369E20008B6945 /* EWIntroMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWIntroMode.m; sourceTree = "<group>"; };
+		53CB569F14367D4D0073CB27 /* Extendaword.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Extendaword.icns; sourceTree = "<group>"; };
+		53DDF3971434D81C002588A4 /* EWCGColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWCGColors.h; sourceTree = "<group>"; };
+		53DDF3981434D81C002588A4 /* EWCGColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWCGColors.m; sourceTree = "<group>"; };
+		53EEC8F8143579ED00D876A8 /* EWAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAI.h; sourceTree = "<group>"; };
+		53EEC8F9143579ED00D876A8 /* EWAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWAI.m; sourceTree = "<group>"; };
+		53FE486B1432EE09002A0578 /* Extendaword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extendaword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FE486F1432EE09002A0578 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53FE48721432EE09002A0578 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53FE48731432EE09002A0578 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53FE48741432EE09002A0578 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53FE48771432EE09002A0578 /* Extendaword-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Extendaword-Info.plist"; sourceTree = "<group>"; };
+		53FE48791432EE09002A0578 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53FE487B1432EE09002A0578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53FE487D1432EE09002A0578 /* Extendaword-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Extendaword-Prefix.pch"; sourceTree = "<group>"; };
+		53FE48811432EE09002A0578 /* EWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWAppDelegate.h; sourceTree = "<group>"; };
+		53FE48821432EE09002A0578 /* EWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAppDelegate.m; sourceTree = "<group>"; };
+		53FE48851432EE0A002A0578 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		53FE488C1432EE63002A0578 /* EWDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWDictionary.h; sourceTree = "<group>"; };
+		53FE488D1432EE63002A0578 /* EWDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWDictionary.m; sourceTree = "<group>"; };
+		53FE488F1432EED5002A0578 /* English.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = English.sqlite3; sourceTree = "<group>"; };
+		53FE48931432F477002A0578 /* EWGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWGameView.h; sourceTree = "<group>"; };
+		53FE48941432F477002A0578 /* EWGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWGameView.m; sourceTree = "<group>"; };
+		53FE48961432F50B002A0578 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		53FE48981432F624002A0578 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FE48681432EE09002A0578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE48991432F624002A0578 /* QuartzCore.framework in Frameworks */,
+				53FE48971432F50B002A0578 /* libsqlite3.dylib in Frameworks */,
+				53FE48701432EE09002A0578 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FE48601432EE09002A0578 = {
+			isa = PBXGroup;
+			children = (
+				53FE48981432F624002A0578 /* QuartzCore.framework */,
+				53FE48961432F50B002A0578 /* libsqlite3.dylib */,
+				53FE48751432EE09002A0578 /* Extendaword */,
+				53FE486E1432EE09002A0578 /* Frameworks */,
+				53FE486C1432EE09002A0578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53FE486C1432EE09002A0578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FE486B1432EE09002A0578 /* Extendaword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FE486E1432EE09002A0578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FE486F1432EE09002A0578 /* Cocoa.framework */,
+				53FE48711432EE09002A0578 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53FE48711432EE09002A0578 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FE48721432EE09002A0578 /* AppKit.framework */,
+				53FE48731432EE09002A0578 /* CoreData.framework */,
+				53FE48741432EE09002A0578 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53FE48751432EE09002A0578 /* Extendaword */ = {
+			isa = PBXGroup;
+			children = (
+				53EEC8F8143579ED00D876A8 /* EWAI.h */,
+				53EEC8F9143579ED00D876A8 /* EWAI.m */,
+				53FE48811432EE09002A0578 /* EWAppDelegate.h */,
+				53FE48821432EE09002A0578 /* EWAppDelegate.m */,
+				53DDF3971434D81C002588A4 /* EWCGColors.h */,
+				53DDF3981434D81C002588A4 /* EWCGColors.m */,
+				53FE488C1432EE63002A0578 /* EWDictionary.h */,
+				53FE488D1432EE63002A0578 /* EWDictionary.m */,
+				535A0DF61436EB45000D4F41 /* EWEndGameMode.h */,
+				535A0DF71436EB45000D4F41 /* EWEndGameMode.m */,
+				533F220F1433A9D500849D8C /* EWGame.h */,
+				533F22101433A9D500849D8C /* EWGame.m */,
+				53B4FBD614369199008B6945 /* EWGameMode.h */,
+				53B4FBD714369199008B6945 /* EWGameMode.m */,
+				53FE48931432F477002A0578 /* EWGameView.h */,
+				53FE48941432F477002A0578 /* EWGameView.m */,
+				53B4FBDF14369E20008B6945 /* EWIntroMode.h */,
+				53B4FBE014369E20008B6945 /* EWIntroMode.m */,
+				53B4FBD91436929F008B6945 /* EWLayers.h */,
+				53B4FBDA1436929F008B6945 /* EWLayers.m */,
+				53B4FBD214369022008B6945 /* EWMode.h */,
+				53B4FBD314369022008B6945 /* EWMode.m */,
+				53B4FBDC143692F0008B6945 /* EWWordLayout.h */,
+				53B4FBDD143692F0008B6945 /* EWWordLayout.m */,
+				533F220A14339D2E00849D8C /* NSArray+EWArrayAdditions.h */,
+				533F220B14339D2E00849D8C /* NSArray+EWArrayAdditions.m */,
+				53682FFB1437033D00003982 /* NSString+EWStringAdditions.h */,
+				53682FFC1437033D00003982 /* NSString+EWStringAdditions.m */,
+				53FE48841432EE0A002A0578 /* MainMenu.xib */,
+				53FE48761432EE09002A0578 /* Supporting Files */,
+			);
+			path = Extendaword;
+			sourceTree = "<group>";
+		};
+		53FE48761432EE09002A0578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53682FF01436FAE400003982 /* Credits.rtf */,
+				53CB569F14367D4D0073CB27 /* Extendaword.icns */,
+				533F22121433F45C00849D8C /* Bangers.ttf */,
+				533F220D1433A42300849D8C /* Ubuntu-Medium.ttf */,
+				53FE488F1432EED5002A0578 /* English.sqlite3 */,
+				53FE48771432EE09002A0578 /* Extendaword-Info.plist */,
+				53FE48781432EE09002A0578 /* InfoPlist.strings */,
+				53FE487B1432EE09002A0578 /* main.m */,
+				53FE487D1432EE09002A0578 /* Extendaword-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FE486A1432EE09002A0578 /* Extendaword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FE48891432EE0A002A0578 /* Build configuration list for PBXNativeTarget "Extendaword" */;
+			buildPhases = (
+				53FE48671432EE09002A0578 /* Sources */,
+				53FE48681432EE09002A0578 /* Frameworks */,
+				53FE48691432EE09002A0578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extendaword;
+			productName = Extendaword;
+			productReference = 53FE486B1432EE09002A0578 /* Extendaword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FE48621432EE09002A0578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 53FE48651432EE09002A0578 /* Build configuration list for PBXProject "Extendaword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53FE48601432EE09002A0578;
+			productRefGroup = 53FE486C1432EE09002A0578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FE486A1432EE09002A0578 /* Extendaword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FE48691432EE09002A0578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE487A1432EE09002A0578 /* InfoPlist.strings in Resources */,
+				53FE48861432EE0A002A0578 /* MainMenu.xib in Resources */,
+				53FE48901432EED5002A0578 /* English.sqlite3 in Resources */,
+				533F220E1433A42300849D8C /* Ubuntu-Medium.ttf in Resources */,
+				533F22131433F45C00849D8C /* Bangers.ttf in Resources */,
+				53CB56A014367D4D0073CB27 /* Extendaword.icns in Resources */,
+				53682FF11436FAE400003982 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FE48671432EE09002A0578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE487C1432EE09002A0578 /* main.m in Sources */,
+				53FE48831432EE09002A0578 /* EWAppDelegate.m in Sources */,
+				53FE488E1432EE63002A0578 /* EWDictionary.m in Sources */,
+				53FE48951432F477002A0578 /* EWGameView.m in Sources */,
+				533F220C14339D2E00849D8C /* NSArray+EWArrayAdditions.m in Sources */,
+				533F22111433A9D500849D8C /* EWGame.m in Sources */,
+				53DDF3991434D81C002588A4 /* EWCGColors.m in Sources */,
+				53EEC8FA143579ED00D876A8 /* EWAI.m in Sources */,
+				53B4FBD414369022008B6945 /* EWMode.m in Sources */,
+				53B4FBD814369199008B6945 /* EWGameMode.m in Sources */,
+				53B4FBDB1436929F008B6945 /* EWLayers.m in Sources */,
+				53B4FBDE143692F1008B6945 /* EWWordLayout.m in Sources */,
+				53B4FBE114369E20008B6945 /* EWIntroMode.m in Sources */,
+				535A0DF81436EB45000D4F41 /* EWEndGameMode.m in Sources */,
+				53682FFD1437033D00003982 /* NSString+EWStringAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FE48781432EE09002A0578 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FE48791432EE09002A0578 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53FE48841432EE0A002A0578 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FE48851432EE0A002A0578 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FE48871432EE0A002A0578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53FE48881432EE0A002A0578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53FE488A1432EE0A002A0578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Extendaword/Extendaword-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "Extendaword/Extendaword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53FE488B1432EE0A002A0578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Extendaword/Extendaword-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "Extendaword/Extendaword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FE48651432EE09002A0578 /* Build configuration list for PBXProject "Extendaword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FE48871432EE0A002A0578 /* Debug */,
+				53FE48881432EE0A002A0578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FE48891432EE0A002A0578 /* Build configuration list for PBXNativeTarget "Extendaword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FE488A1432EE0A002A0578 /* Debug */,
+				53FE488B1432EE0A002A0578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FE48621432EE09002A0578 /* Project object */;
+}
