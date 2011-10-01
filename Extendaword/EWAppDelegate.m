@@ -3,7 +3,7 @@
 
 @implementation EWAppDelegate
 
-- (BOOL)shouldTerminateAfterLastWindowClosed
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
 {
     return YES;
 }
