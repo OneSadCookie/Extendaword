@@ -76,7 +76,7 @@
     if (!superset)
     {
         winner = gameState == EWWaitingOn1 ? player1Name : player2Name;
-        suggestion = [NSString stringWithFormat:@"“%@” contained ”%@”", [dict wordContaining:previouslyValidState], previouslyValidState];
+        suggestion = [NSString stringWithFormat:@"“%@” contained “%@”", [dict wordContaining:previouslyValidState], previouslyValidState];
         self.lastMoveDescription = [NSString stringWithFormat:@"%@ correctly says “%@” cannot become a word.", winner, letters];
     }
     else
